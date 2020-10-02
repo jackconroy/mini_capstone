@@ -1,0 +1,9 @@
+<form action="/products" method="patch">
+<input type="hidden" name="method" value="patch">
+<div>Name<br><input type="text" name="Name" value="<%= @product.name %>"></div><br>
+<div>Price<br><input type="text" name="Price" value="<%= @product.price %>"></div><br>
+<div>Description<br><input type="text" name="Description" value="<%= @product.description %>"></div><br>
+<div>Supplier ID<br><input type="text" name="Supplier ID" value="<%= @product.supplier_id %>"></div><br>
+<div>Inventory<br><input type="text" name="Inventory" value="<%= @product.inventory %>"></div><br>
+<input type="submit" value="Edit Product" />
+</form>

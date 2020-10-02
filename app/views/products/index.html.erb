@@ -1,0 +1,10 @@
+
+<h1>Products!</h1>
+<%@products.each do |product|%>
+<h2><%=product.name%></h2>
+<h2><%=product.price%></h2>
+<h3><%=product.description%></h3>
+<img src="https://contestimg.wish.com/api/webimage/5d949a969316231edc81d68e-4-large.jpg" alt="Not found"><br>
+<a href="/products/<%=product.id%>%"> Would you like to know more? </a>
+
+<%end%>
